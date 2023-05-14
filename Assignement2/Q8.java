@@ -1,14 +1,14 @@
 interface DetailInfo{
     void display();
     int count();
-
 }
 class Person implements DetailInfo{
     static int maxCount;
     String name;
     public void display(){
         System.out.println("Name : "+name);
-        System.out.println("No. of characters present in "+name+" are "+count());}
+        System.out.println("No. of characters present in "+name+" are "+count());
+    }
     public int count(){
         int countt=0;
         for(int i=0;i<name.length();i++){

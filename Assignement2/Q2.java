@@ -19,8 +19,10 @@ public class Q2{
     public static void main(String[] args) {
         Complex c1=new Complex();
         c1.setData(1,2);
+
         Complex c2=new Complex();
         c2.setData(7,9);
+        
         Complex ans=c2.add(c1,c2);
         System.out.print("The Addition of ");
         c1.display();

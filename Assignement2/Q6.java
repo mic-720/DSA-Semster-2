@@ -1,28 +1,36 @@
 abstract class Shape{
     abstract double area();
-    abstract double perimeter();}
+    abstract double perimeter();
+}
 class Square extends Shape{
     double side;
     double area(){
-        return side*side;}
+        return side*side;
+    }
     double perimeter(){
-        return 4*side;}
+        return 4*side;
+    }
 }
 class Circle extends Shape{
     double radius;
     double area(){
-        return Math.PI*radius*radius;}
+        return Math.PI*radius*radius;
+    }
     double perimeter(){
-        return 2*Math.PI*radius;}
+        return 2*Math.PI*radius;
+    }
     double circumference(){
-        return perimeter();}
+        return perimeter();
+    }
 }
 class Triangle extends Shape{
     double side;
     double area(){
-        return (Math.sqrt(3)*side*side)/4;}          //equilateral triangle }
+        return (Math.sqrt(3)*side*side)/4;           //equilateral triangle }
+    }     
     double perimeter(){
-        return 3*side;}
+        return 3*side;
+    }
 }
 public class Q6 {
     public static void main(String[] args) {
