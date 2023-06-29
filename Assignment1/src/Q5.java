@@ -9,7 +9,7 @@ public class Q5 {
 				n=sum;
 				sum=0;
 				if(n<10) {
-					break;
+				     break;
 				}
 			}
 		}
@@ -21,6 +21,4 @@ public class Q5 {
 		int n=s.nextInt();
 		System.out.println("Sum of digits of "+n+" until the number is a single digit is : "+sum_Of_Digits(n));
 	}
-
-
 }
